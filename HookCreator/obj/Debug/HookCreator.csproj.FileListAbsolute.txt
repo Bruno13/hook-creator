@@ -1,0 +1,13 @@
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\bin\Debug\HookCreator.exe.config
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\bin\Debug\HookCreator.exe
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\bin\Debug\HookCreator.pdb
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.csprojResolveAssemblyReference.cache
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.Form1.resources
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.Properties.Resources.resources
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.csproj.GenerateResource.Cache
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.exe
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.pdb
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\bin\Debug\HookCreator.exe.manifest
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\bin\Debug\HookCreator.application
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.exe.manifest
+c:\users\bruno.bruno-pc\documents\visual studio 2015\Projects\HookCreator\HookCreator\obj\Debug\HookCreator.application
