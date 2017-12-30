@@ -1,7 +1,7 @@
 ﻿/*
 	Hook Creator(Criador de Hook)
 		- Simplifica o trabalho para criar o hook (method ALS 7) de uma
-        função, oferecendo a lista de todas as callbacks do SA-MP com
+        callback, oferecendo a lista de todas as callbacks do SA-MP com
         todos seus parâmetros. Também disponibiliza a opção para separar
         as partes do hook para fácil manejo.
 
