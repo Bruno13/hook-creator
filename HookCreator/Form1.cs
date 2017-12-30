@@ -250,7 +250,7 @@ namespace HookCreator
                 return;
             }
 
-            int callbackSelected = comboBoxCallbacks.SelectedIndex, indexChar = 0;
+            int callbackSelected = comboBoxCallbacks.SelectedIndex, indexChar;
 
             bool isALSComp = (callbacks[callbackSelected].Length > 26);
 
@@ -267,22 +267,42 @@ namespace HookCreator
 
             callParams = callbacksParams[callbackSelected];
 
+            indexChar = callParams.IndexOf(charParamsRemove[0]);
+
             while (indexChar != -1)
             {
                 indexChar = callParams.IndexOf(charParamsRemove[0]);
 
                 if (indexChar != -1)
-                    callParams = callParams.Remove(indexChar, 2);
+                {
+                    try
+                    {
+                        callParams = callParams.Remove(indexChar, 2);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message + Environment.NewLine + ex.InnerException, "Error to Create Hook");
+                    }
+                }
             }
 
-            indexChar = 0;
+            indexChar = callParams.IndexOf(charParamsRemove[1]);
 
             while (indexChar != -1)
             {
                 indexChar = callParams.IndexOf(charParamsRemove[1]);
 
                 if (indexChar != -1)
-                    callParams = callParams.Remove(indexChar, 6);
+                {
+                    try
+                    {
+                        callParams = callParams.Remove(indexChar, 6);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message + Environment.NewLine + ex.InnerException, "Error to Create Hook");
+                    }
+                }
             }
 
             output = output.Replace("Function", callbacks[callbackSelected]);
